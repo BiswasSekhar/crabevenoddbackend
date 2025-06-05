@@ -1,0 +1,50 @@
+# Python virtual environments
+frappe-env/
+frappe-bench/env/
+**/venv/
+**/.env/
+**/env/
+
+# Python bytecode
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+
+# Log files
+**/*.log
+logs/
+frappe-bench/logs/
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Configuration files with sensitive information
+**/.env
+**/local_config.py
+**/site_config.json
+
+# Frappe specific
+frappe-bench/sites/*/private/
+frappe-bench/sites/*/public/files/
+frappe-bench/sites/*/private/backups/
+frappe-bench/sites/*/private/files/
+
+# Node modules
+**/node_modules/
+
+# Distribution / packaging
+**/dist/
+**/build/
+**/*.egg-info/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db

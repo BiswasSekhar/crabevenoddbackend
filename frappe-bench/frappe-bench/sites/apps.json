@@ -1,0 +1,21 @@
+{
+    "frappe": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 1,
+        "version": "14.96.7"
+    },
+    "crab_game": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "56a4cdc7ba38f84aedc61c723b8a09b70d77fb48",
+            "branch": "master"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "0.0.1"
+    }
+}
